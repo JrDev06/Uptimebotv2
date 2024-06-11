@@ -1,0 +1,14 @@
+{
+  "name": "minecraft-bot",
+  "version": "1.0.0",
+  "description": "A Minecraft bot that reconnects to the server if kicked or disconnected",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mineflayer": "^3.14.0",
+    "mineflayer-autoauth": "^1.2.0"
+  }
+}
