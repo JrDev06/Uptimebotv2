@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: minecraft-bot
+    env:
+      NODE_ENV: production
+    buildCommand: npm install
+    startCommand: node index.js
+    port: 8080
+    healthCheck:
+      url: /
+      interval: 10s
+      timeout: 5s
+      retries: 5
