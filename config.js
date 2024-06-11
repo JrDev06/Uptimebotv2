@@ -1,7 +1,7 @@
 {
   "minecraft": {
-    "host": "YOUR_ATERNOS_SERVER_HOST",
-    "port": 25565,
-    "username": "YOUR_OFFLINE_USERNAME"
+    "host": "RiseSMPMC.aternos.me",
+    "port": 46779,
+    "username": "BOTV1"
   }
 }
